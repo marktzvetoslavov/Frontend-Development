@@ -21,3 +21,35 @@ EXAMPLE EXPLAINED
     all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc...
   - The <h1> element defines a large heading.
   - The <p> element defines a paragraph.
+
+--- 2. HTML BASIC ---
+The <!DOCTYPE> declaration represents the document type, and helps browsers
+to display web pages correctly. It must only appear once, at the top of the page
+(before any HTML tags). The <!DOCTYPE> declaration is not case sensitive.
+
+  --- HTML headings ---
+  HTML headings are defined with the <h1> to <h6> tags. <h1> defines the most
+  important heading. <h6> defines the least important heading:
+
+  <h1> This is heading 1</h1>
+  <h2> This is heading 2</h2>
+  <h3> This is heading 3</h3>
+
+  --- HTML paragraphs ---
+  HTML paragraphs are defined with the <p> tag:
+  <p> This is a paragraph </p>
+  <p> This is another paragraph </p>
+
+  --- HTML links ---
+  HTML links are defined with the <a> tag:
+  <a href="https://www.w3schools.com">This is a link</a>
+
+  The link's destination is specified in the href attribute. Attributes are used
+  to provide additional information about HTML elements.
+
+  --- HTML images ---
+  HTML images are defined with the <img> tag.
+  The source file (src), alternative text (alt), and height are provided
+  as attributes.
+
+  <img src="w3schools.jpg" alt="w3schools.com" width="104" height="142">
