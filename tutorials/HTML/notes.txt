@@ -22,6 +22,7 @@ EXAMPLE EXPLAINED
   - The <h1> element defines a large heading.
   - The <p> element defines a paragraph.
 
+
 --- 2. HTML BASIC ---
 The <!DOCTYPE> declaration represents the document type, and helps browsers
 to display web pages correctly. It must only appear once, at the top of the page
@@ -53,3 +54,51 @@ to display web pages correctly. It must only appear once, at the top of the page
   as attributes.
 
   <img src="w3schools.jpg" alt="w3schools.com" width="104" height="142">
+
+
+--- 3. HTML Elements ---
+An HTML element is defined by a start tag, some content, and an end tag.
+
+  --- HTML elements ---
+  - The HTML element is everything from the start tag to the end tag:
+    <tagname> Content goes here ... </tagname>
+
+  --- nested HTML elements ---
+  - HTML elements can be nested (this means that elements can contain other elements)
+
+  --- EMPTY HTML elements ---
+  - HTML elements with no content are called empty elements.
+  - The <br> tag defines a line break, and is an empty element without a closing tag:
+  <p> This is a <br> paragraph with a line break.</p>
+
+
+--- 4. HTML Attributes ---
+HTML attributes provide additional information about HTML elements.
+
+  --- HTML Attributes!---
+  - All HTML elements can have attributes.
+  - Attributes provide additional information about elements.
+  - Attributes are always specified in the start tag.
+  - Attributes usually come in name/value pairs like: name="value"
+
+  --- The href attribute ---
+  - The <a> tag defines a hyperlink. The href attribute specifies the URL
+    of the page the link goes to:
+
+    < a href="https://www.w3schools.com">Visit W3Schools</a>
+
+  --- The src attribute ---
+  - The <img> tag is used to embed an image in an HTML page. The src attribute
+    specifies the path to the image to be displayed:
+    <img src="img_girl.jpg">
+
+    There are two ways to specify the URL in the src attribute:
+    1. Absolute URL - Links to an external image that is hosted on another
+                      website. Example: src="https://www.w3schools.com/images/img_girl.jpg".
+      Notes: external images might be under copyright. if you do not get the
+             permission to use it, you may be in violation of copyright laws.
+             In addition, you cannot control external images; it can suddenly be
+             removed or changed.
+    2. Relative URL - Links to an image that is hosted within the website. Here,
+                      the URL does not include the domain name. If the URL begins
+                      without a slash, it will be relative to the current page.
