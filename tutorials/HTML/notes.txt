@@ -102,3 +102,19 @@ HTML attributes provide additional information about HTML elements.
     2. Relative URL - Links to an image that is hosted within the website. Here,
                       the URL does not include the domain name. If the URL begins
                       without a slash, it will be relative to the current page.
+
+  --- The width and height attributes ---
+  - The <img> tag should also contain the width and height attributes, which specifies
+    the width of the image (in pixels):
+
+    <img src="img_girl.jpg" width="500" height="600">
+
+  --- The alt attribute ---
+  - The required "alt" attribute for the <img> tag specifies an alternative text
+    for an image, if the image for some reason cannot be displayed. This can be
+    due to slow connection, or an error in the src attribute, or if the user
+    uses a screen reader.
+
+    <img src="img_girl.jpg" alt="Girl with a jacket."
+
+  --- The style attribute ---
