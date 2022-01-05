@@ -2,6 +2,8 @@
 HTML is the standard markup language for Web pages.
 With HTML you can create your own website.
 
+
+-------------------------------------------------------------------------------
 --- 1. HTML INTRODUCTION ---
 WHAT IS HTML?
   - HTML stands for Hyper Text Markup Language
@@ -16,13 +18,15 @@ EXAMPLE EXPLAINED
   - The <!DOCTYPE html> declaration defines that this document is an HTML5 document.
   - The <html> element is the root element of an HTML page.
   - The <head> element contains meta information about the HTML page.
-  - The <title> element specifies a title for the HTML page (which is shown in the browser´s title bar or in the page´s tab).
+  - The <title> element specifies a title for the HTML page (which is shown in the
+    browser's title bar or in the page's tab).
   - The <body> element defines the document's body, and is a container for
     all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc...
   - The <h1> element defines a large heading.
   - The <p> element defines a paragraph.
 
 
+-------------------------------------------------------------------------------
 --- 2. HTML BASIC ---
 The <!DOCTYPE> declaration represents the document type, and helps browsers
 to display web pages correctly. It must only appear once, at the top of the page
@@ -56,6 +60,7 @@ to display web pages correctly. It must only appear once, at the top of the page
   <img src="w3schools.jpg" alt="w3schools.com" width="104" height="142">
 
 
+-------------------------------------------------------------------------------
 --- 3. HTML Elements ---
 An HTML element is defined by a start tag, some content, and an end tag.
 
@@ -72,6 +77,7 @@ An HTML element is defined by a start tag, some content, and an end tag.
   <p> This is a <br> paragraph with a line break.</p>
 
 
+-------------------------------------------------------------------------------
 --- 4. HTML Attributes ---
 HTML attributes provide additional information about HTML elements.
 
@@ -135,3 +141,13 @@ HTML attributes provide additional information about HTML elements.
     <html lang="en-US">
 
   --- The title attribute ---
+  - The "title" attribute defines some extra information about an element.
+  - The value of the title attribute will be displayed as a tooltip when you
+    mouse over the element:
+
+    EXAMPLE:
+    <p title="I'm a toooltip"> This is a paragraph.</p>
+
+
+-------------------------------------------------------------------------------
+--- 5. HEADINGS ---
