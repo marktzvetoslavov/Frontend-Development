@@ -118,3 +118,20 @@ HTML attributes provide additional information about HTML elements.
     <img src="img_girl.jpg" alt="Girl with a jacket."
 
   --- The style attribute ---
+  - The "style" attribute is used to add styles to an element, such as colour,
+  font, size, and much more.
+
+  <p style="color:red;">This is a red paragraph.</p>
+
+  --- The lang attribute ---
+  - You should always include the "lang" attribute inside the <html> tag, to
+    declare the language of the WEB page. This is meant to assist search
+    engines and browsers. Country codes can also be added to the language
+    code in the "lang" attribute. So, the first two characters define the
+    language of the HTML page, and the last two characters define the country.
+
+    EXAMPLE:
+    <!DOCTYPE html>
+    <html lang="en-US">
+
+  --- The title attribute ---
