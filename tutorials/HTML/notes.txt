@@ -5,149 +5,176 @@ With HTML you can create your own website.
 
 -------------------------------------------------------------------------------
 --- 1. HTML INTRODUCTION ---
-WHAT IS HTML?
-  - HTML stands for Hyper Text Markup Language
-  - HTML is the standard markup language for creating Web pages.
-  - HTML describes the structure of a Web page.
-  - HTML consists of a series of elements.
-  - HTML elements tell the browser how to display content.
-  - HTML elements label pieces of content such as "this is heading", "this is
-    paragraph", "this is a link"
+---> "WHAT IS HTML?"
+      - HTML stands for Hyper Text Markup Language
+      - HTML is the standard markup language for creating Web pages.
+      - HTML describes the structure of a Web page.
+      - HTML consists of a series of elements.
+      - HTML elements tell the browser how to display content.
+      - HTML elements label pieces of content such as "this is heading", "this is
+       paragraph", "this is a link"
 
-EXAMPLE EXPLAINED
-  - The <!DOCTYPE html> declaration defines that this document is an HTML5 document.
-  - The <html> element is the root element of an HTML page.
-  - The <head> element contains meta information about the HTML page.
-  - The <title> element specifies a title for the HTML page (which is shown in the
-    browser's title bar or in the page's tab).
-  - The <body> element defines the document's body, and is a container for
-    all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc...
-  - The <h1> element defines a large heading.
-  - The <p> element defines a paragraph.
+---> "EXAMPLE EXPLAINED"
+      - The <!DOCTYPE html> declaration defines that this document is an HTML5
+        document.
+      - The <html> element is the root element of an HTML page.
+      - The <head> element contains meta information about the HTML page.
+      - The <title> element specifies a title for the HTML page (which is shown
+        in the browser's title bar or in the page's tab).
+      - The <body> element defines the document's body, and is a container for
+        all the visible contents, such as headings, paragraphs, images, hyperlinks,
+        tables, lists, etc...
+      - The <h1> element defines a large heading.
+      - The <p> element defines a paragraph.
 
 
 -------------------------------------------------------------------------------
 --- 2. HTML BASIC ---
-The <!DOCTYPE> declaration represents the document type, and helps browsers
-to display web pages correctly. It must only appear once, at the top of the page
-(before any HTML tags). The <!DOCTYPE> declaration is not case sensitive.
+---> "BASICS"
+      - The <!DOCTYPE> declaration represents the document type, and helps browsers
+        to display web pages correctly. It must only appear once, at the top of the page
+        (before any HTML tags). The <!DOCTYPE> declaration is not case sensitive.
 
-  --- HTML headings ---
-  HTML headings are defined with the <h1> to <h6> tags. <h1> defines the most
-  important heading. <h6> defines the least important heading:
+---> "HTML headings"
+      - HTML headings are defined with the <h1> to <h6> tags. <h1> defines the most
+        important heading. <h6> defines the least important heading:
 
-  <h1> This is heading 1</h1>
-  <h2> This is heading 2</h2>
-  <h3> This is heading 3</h3>
+        * EXAMPLE *
 
-  --- HTML paragraphs ---
-  HTML paragraphs are defined with the <p> tag:
-  <p> This is a paragraph </p>
-  <p> This is another paragraph </p>
+        <h1> This is heading 1</h1>
+        <h2> This is heading 2</h2>
+        <h3> This is heading 3</h3>
 
-  --- HTML links ---
-  HTML links are defined with the <a> tag:
-  <a href="https://www.w3schools.com">This is a link</a>
+---> "HTML paragraphs"
+      - HTML paragraphs are defined with the <p> tag:
+        * EXAMPLE *
+        <p> This is a paragraph </p>
+        <p> This is another paragraph </p>
 
-  The link's destination is specified in the href attribute. Attributes are used
-  to provide additional information about HTML elements.
+---> "HTML links"
+      - HTML links are defined with the <a> tag:
+      * EXAMPLE *
+      <a href="https://www.w3schools.com">This is a link</a>
 
-  --- HTML images ---
-  HTML images are defined with the <img> tag.
-  The source file (src), alternative text (alt), and height are provided
-  as attributes.
+      - the link's destination is specified in the href attribute. Attributes are used
+        to provide additional information about HTML elements.
 
-  <img src="w3schools.jpg" alt="w3schools.com" width="104" height="142">
+---> "HTML images"
+      - HTML images are defined with the <img> tag.
+      - The source file (src), alternative text (alt), and height are provided
+        as attributes.
+
+        * EXAMPLE *
+        <img src="w3schools.jpg" alt="w3schools.com" width="104" height="142">
 
 
 -------------------------------------------------------------------------------
 --- 3. HTML Elements ---
 An HTML element is defined by a start tag, some content, and an end tag.
 
-  --- HTML elements ---
-  - The HTML element is everything from the start tag to the end tag:
-    <tagname> Content goes here ... </tagname>
+---> "HTML elements"
+      - The HTML element is everything from the start tag to the end tag:
+        <tagname> Content goes here ... </tagname>
 
-  --- nested HTML elements ---
-  - HTML elements can be nested (this means that elements can contain other elements)
+---> "nested HTML elements"
+      - HTML elements can be nested (this means that elements can contain other elements)
 
-  --- EMPTY HTML elements ---
-  - HTML elements with no content are called empty elements.
-  - The <br> tag defines a line break, and is an empty element without a closing tag:
-  <p> This is a <br> paragraph with a line break.</p>
+---> "EMPTY HTML elements"
+      - HTML elements with no content are called empty elements.
+      - The <br> tag defines a line break, and is an empty element without a closing tag:
 
+        * EXAMPLE
+        <p> This is a <br> paragraph with a line break.</p>
 
 -------------------------------------------------------------------------------
 --- 4. HTML Attributes ---
 HTML attributes provide additional information about HTML elements.
 
-  --- HTML Attributes!---
-  - All HTML elements can have attributes.
-  - Attributes provide additional information about elements.
-  - Attributes are always specified in the start tag.
-  - Attributes usually come in name/value pairs like: name="value"
+---> "HTML Attributes"
+      - All HTML elements can have attributes.
+      - Attributes provide additional information about elements.
+      - Attributes are always specified in the start tag.
+      - Attributes usually come in name/value pairs like: name="value"
 
-  --- The href attribute ---
-  - The <a> tag defines a hyperlink. The href attribute specifies the URL
-    of the page the link goes to:
+---> "The href attribute"
+      - The <a> tag defines a hyperlink. The href attribute specifies the URL
+        of the page the link goes to:
 
-    < a href="https://www.w3schools.com">Visit W3Schools</a>
+        * EXAMPLE *
+        <a href="https://www.w3schools.com">Visit W3Schools</a>
 
-  --- The src attribute ---
-  - The <img> tag is used to embed an image in an HTML page. The src attribute
-    specifies the path to the image to be displayed:
-    <img src="img_girl.jpg">
+---> "The src attribute"
+      - The <img> tag is used to embed an image in an HTML page. The src attribute
+        specifies the path to the image to be displayed:
+        <img src="img_girl.jpg">
 
-    There are two ways to specify the URL in the src attribute:
-    1. Absolute URL - Links to an external image that is hosted on another
-                      website. Example: src="https://www.w3schools.com/images/img_girl.jpg".
-      Notes: external images might be under copyright. if you do not get the
-             permission to use it, you may be in violation of copyright laws.
-             In addition, you cannot control external images; it can suddenly be
-             removed or changed.
-    2. Relative URL - Links to an image that is hosted within the website. Here,
-                      the URL does not include the domain name. If the URL begins
-                      without a slash, it will be relative to the current page.
+        There are two ways to specify the URL in the src attribute:
+          1. Absolute URL - Links to an external image that is hosted on another
+             website. Example: src="https://www.w3schools.com/images/img_girl.jpg".
 
-  --- The width and height attributes ---
-  - The <img> tag should also contain the width and height attributes, which specifies
-    the width of the image (in pixels):
+          Notes: external images might be under copyright. if you do not get the
+                 permission to use it, you may be in violation of copyright laws.
+                 In addition, you cannot control external images; it can suddenly be
+                 removed or changed.
+          2. Relative URL - Links to an image that is hosted within the website. Here,
+             the URL does not include the domain name. If the URL begins
+             without a slash, it will be relative to the current page.
 
-    <img src="img_girl.jpg" width="500" height="600">
+---> "The width and height attributes"
+      - The <img> tag should also contain the width and height attributes, which specifies
+        the width of the image (in pixels):
+        * EXAMPLE *
+        <img src="img_girl.jpg" width="500" height="600">
 
-  --- The alt attribute ---
-  - The required "alt" attribute for the <img> tag specifies an alternative text
-    for an image, if the image for some reason cannot be displayed. This can be
-    due to slow connection, or an error in the src attribute, or if the user
-    uses a screen reader.
+---> "The alt attribute"
+      - The required "alt" attribute for the <img> tag specifies an alternative text
+        for an image, if the image for some reason cannot be displayed. This can be
+        due to slow connection, or an error in the src attribute, or if the user
+        uses a screen reader.
 
-    <img src="img_girl.jpg" alt="Girl with a jacket."
+        * EXAMPLE *
+        <img src="img_girl.jpg" alt="Girl with a jacket."
 
-  --- The style attribute ---
-  - The "style" attribute is used to add styles to an element, such as colour,
-  font, size, and much more.
+---> "The style attribute"
+      - The "style" attribute is used to add styles to an element, such as colour,
+        font, size, and much more.
 
-  <p style="color:red;">This is a red paragraph.</p>
+        * EXAMPLE *
+        <p style="color:red;">This is a red paragraph.</p>
 
-  --- The lang attribute ---
-  - You should always include the "lang" attribute inside the <html> tag, to
-    declare the language of the WEB page. This is meant to assist search
-    engines and browsers. Country codes can also be added to the language
-    code in the "lang" attribute. So, the first two characters define the
-    language of the HTML page, and the last two characters define the country.
+---> "The lang attribute"
+      - You should always include the "lang" attribute inside the <html> tag, to
+        declare the language of the WEB page. This is meant to assist search
+        engines and browsers. Country codes can also be added to the language
+        code in the "lang" attribute. So, the first two characters define the
+        language of the HTML page, and the last two characters define the country.
 
-    EXAMPLE:
-    <!DOCTYPE html>
-    <html lang="en-US">
+        * EXAMPLE *
+        <!DOCTYPE html>
+        <html lang="en-US">
 
-  --- The title attribute ---
-  - The "title" attribute defines some extra information about an element.
-  - The value of the title attribute will be displayed as a tooltip when you
-    mouse over the element:
+---> "The title attribute
+      - The "title" attribute defines some extra information about an element.
+      - The value of the title attribute will be displayed as a tooltip when you
+        mouse over the element:
 
-    EXAMPLE:
-    <p title="I'm a toooltip"> This is a paragraph.</p>
+        * EXAMPLE *
+        <p title="I'm a toooltip"> This is a paragraph.</p>
 
 
 -------------------------------------------------------------------------------
 --- 5. HEADINGS ---
+HTML headings are titles or subtitles that you want to display on a webpage.
+
+---> "HEADINGS ARE IMPORTANT":
+      - search engines use the headings to index the structure and content
+        of your web pages. It is important to use headings to show
+        the document structure.
+
+     "BIGGER HEADINGS"
+      - each HTML heading has a default size. However, you can specify the size 
+        for any heading with the "style" attribute, using the CSS font-size
+        property:
+
+        * EXAMPLE *
+        <h1 style="font-size:60px">Heading 1</h1>
