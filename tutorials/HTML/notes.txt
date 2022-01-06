@@ -172,9 +172,50 @@ HTML headings are titles or subtitles that you want to display on a webpage.
         the document structure.
 
      "BIGGER HEADINGS"
-      - each HTML heading has a default size. However, you can specify the size 
+      - each HTML heading has a default size. However, you can specify the size
         for any heading with the "style" attribute, using the CSS font-size
         property:
 
         * EXAMPLE *
         <h1 style="font-size:60px">Heading 1</h1>
+
+
+-------------------------------------------------------------------------------
+--- 6. PARAGRAPHS ---
+A paragraph always starts on a new line, and is usually a block of text.
+
+---> "HTML display"
+      - You cannot be sure how HTML will be displayed. Large or small screens,
+        and resized windows will create different results. With HTML, you
+        cannot change the display by adding extra spaces or extra lines in your
+        HTML code. The browser automatically remove any extra spaces or
+        extra lines when the page is displayed.
+
+---> "HTML Horizontal Rules"
+      - The <hr> tag defines a thematic break in an HTML page, and is most
+        often displayed as a Horizontal rule. The <hr> element is used to
+        separate content (or define a change) in an HTML page:
+
+        * EXAMPLE *
+        <h1>This is heading 1</h1>
+        <p>This is some text.</p>
+        <hr>
+        <h2>This is heading 2</h2>
+        <p>This is some other text.</p>
+        <hr>
+
+      - The <hr> tag is an empty tag, which means that it has no end tag.
+
+---> "HTML Line Breaks"
+      - The HTML <br> element defines a line break. Use <br> if you want a line
+        break (a new line) without starting a new paragraph.
+
+        * EXAMPLE *
+        <p> This is <br>a paragraph<br> with line breaks.</p>
+
+      - The <br> tag is an empty tag, which means that it has no end tag.
+
+---> "The HTML <pre> element"
+      - The HTML <pre> element defines pre-formatted text. The text inside
+        a <pre> element is displayed in a fixed-width font (usually Courier),
+        and it preserves both spaces and line breaks.
