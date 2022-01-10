@@ -404,3 +404,27 @@ HTML source code.
       - Comments can be used to hide parts in the middle of the HTML code.
         * EXAMPLE *
         <p>This <!-- great text --> is a paragraph.</p>
+
+-------------------------------------------------------------------------------
+--- 10. HTML Quotation and Citation elements ---
+In this chapter we will go through the <blockquote>, <q>, <abbr>, <cite>, and
+<bdo> HTML elements.
+
+---> "HTML <blockquote> for Quotations"
+      - The HTML "blockquote" element defines a section that is quoted from
+        another source. Browsers usually indent <blockquote> elements.
+
+        <p>Here is a quote from WWF's website:</p>
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 50 years, WWF has been protecting the future of nature.
+        The world's leading conservation organization,
+        WWF works in 100 countries and is supported by
+        1.2 million members in the United States and
+        close to 5 million globally.
+        </blockquote>
+
+     "HTML <q> for Short Quotations"
+      - The HTML <q> tag defines a short quoatation. Browsers normally insert
+        quoatation marks around the quotation.
+
+        <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
