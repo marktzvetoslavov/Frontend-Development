@@ -290,3 +290,71 @@ font, size and more.
       - Use "font-family" for text fonts
       - Use "font-size" for text sizes
       - Use "text-align" for text alignment
+
+
+-------------------------------------------------------------------------------
+--- 8. HTML text formatting ---
+HTML contains several elements for defining text with a special meaning.
+
+Formating elements were designed to display special types of text:
+---> "HTML Formating Elements"
+      * <b> - Bold text
+      * <strong> - Important text
+      * <i> - Italic text
+      * <em> - Emphasized text
+      * <mark> - Marked text
+      * <small> - Smaller text
+      * <del> - Deleted text
+      * <ins> - Inserted text
+      * <sub> - Subscript text
+      * <sup> - Superscript text
+
+---> "HTML <b> and <strong> Elements"
+      - The HTML <b> element defines bold text, without any extra importance. The
+        HTML <strong> element defines text with strong importance. The content
+        is typically displayed in bold.
+
+        * <b>This text is bold</b>
+        * <strong>This text is important!</strong>
+
+---> "HTML <i> and <em> Elements"
+      - The HTML <i> element defines a part of text in an alternative voice
+        or mood. The content inside is typically displayed in italic.
+
+        Tip: The "<i>" tag is often used to indicate a technical term, a phrase
+             from another language, a thought, a ship name, etc ...
+
+        * <i>This text is italic</i>
+
+      - The HTML <em> element defines emphasized text. The context is typically
+        displayed in italic.
+
+        * <em>This text is emphasized</em>
+
+---> "Other HTML elements"
+      - The HTML <small> element defines smaller text:
+        * <small>This is one smaller text.</small>
+
+      - The HTML <mark> element defines text that should be marked or highlighted:
+        * <p>Do not forget to buy <mark>milk</mark> today.</p>
+
+      - The HTML <del> element defines text that has been deleted from a document.
+        Browsers will usually strike a line through deleted text:
+        * <p>My favorite colour is <del>blue</del> red.</p>
+
+      - The HTML <ins> element defines a text that has been inserted into a
+        document. Browsers will usually underline inserted text:
+        * <p>My favorite colour is <del> blue</del><ins>red</ins>.</p>
+
+      - The HTML <sub> element defines subscript text. Subscript text appears
+        half a character below the normal line, and is sometimes rendered
+        in a smaller font. Subscript text can be used for chemical formulas,
+        like H2O:
+
+        * <p>This is <sub>subscripted</sub> text.</p>
+
+      - The HTML <sup> element defines superscript text. Superscript text appears
+        half a character above the normal line, and is sometimes rendered in
+        a smaller font. Superscript text can be used for footness:
+
+        * <p>This is <sup>superscripted</sup> text.</p>
