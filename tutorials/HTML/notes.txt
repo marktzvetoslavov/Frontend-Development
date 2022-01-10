@@ -358,3 +358,49 @@ Formating elements were designed to display special types of text:
         a smaller font. Superscript text can be used for footness:
 
         * <p>This is <sup>superscripted</sup> text.</p>
+
+
+-------------------------------------------------------------------------------
+--- 9. HTML Comments ---
+HTML comments are not displayed in the browser, but they can help document your
+HTML source code.
+
+---> "HTML Comment tag"
+      - You can add comments to your HTML source by using the following syntax:
+        * <!-- Write your comments here -->
+
+        Tip: Notice that there is an exclamation point (!) in the start tag,
+             but not in the end tag.
+
+     "Add comments"
+      - With comments you can place notifications and reminders in your HTML code:
+        * EXAMPLE *
+        <!-- This is a comment -->
+        <p>This is a paragraph.</p>
+        <!-- Remember to add more information here -->
+
+     "Hide content"
+      - Comments can be used to hide content. Which can be be helpful if you
+        hide content temporarirly:
+        * EXAMPLE *
+        <p>This is a paragraph.</p>
+        <!-- <p>This is another paragraph.</p> -->
+        <p>This is a paragraph too.</p>
+
+      - You can also hide more than one line, everything between the <!-- and
+        the --> will be hidden from the display.
+        * EXAMPLE *
+        <p>This is a paragraph.</p>
+        <!--
+        <p>Look at this cool image:</p>
+        <img border="0" src="pic_trulli.jpg" alt="Trulli">
+        -->
+        <p>This is a paragraph too.</p>
+
+        Tip: Comments are also great for debugging HTML, because you can
+             comment out HTML lines of code, one at a time, to search for errors.
+
+     "Hide inline content"
+      - Comments can be used to hide parts in the middle of the HTML code.
+        * EXAMPLE *
+        <p>This <!-- great text --> is a paragraph.</p>
