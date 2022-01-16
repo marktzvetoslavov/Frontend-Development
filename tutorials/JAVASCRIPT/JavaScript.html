@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="JavaScript.css">
+  </head>
+  <body>
+    <h1>What can JavaScript Do?</h1>
+    <p>JavaScript can change HTML content.</p>
+    <button onclick='document.getElementById("p1").innerHTML =
+    "JavaScript is AMAZING!"'>Click the button</button>
+
+    <h1>Changing HTML attribute values</h1>
+    <p>In this example JavaScript changes the value of the src (source) attribute
+       of an "img" tag</p>
+
+    <button onclick="document.getElementById('image').src='photos/boredape.png'">Get rid of Crown</button>
+    <img id="image" src="photos/boredape.png">
+    <button onclick="document.getElementById('image').src='photos/boredape_crown.png'">Add a crown</button>
+  </body>
+</html>
